@@ -2,7 +2,42 @@
  * YOUR CODE BELOW! *
  ********************/
 
+const iGetTheJoke = true;
+const havingFun = true;
+const learning = true;
+const killingIt = learning && havingFun;
 
+function returnFalse() {
+  return false;
+}
+
+function isOpposite(thing) {
+  return !thing;
+}
+
+function both(thing1, thing2) {
+  return thing1 && thing2;
+}
+
+function either(thing1, thing2) {
+  return thing1 || thing2;
+}
+
+function firstOnly(thing1, thing2) {
+  return thing1 && !thing2;
+}
+
+function secondOnly(thing1, thing2) {
+  return !thing1 && thing2;
+}
+
+function neither(thing1, thing2) {
+  return !thing1 && !thing2;
+}
+
+function itsComplicated(thing1, thing2, thing3) {
+  return !thing1 || thing2 && thing3
+}
 
 
 
